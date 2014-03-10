@@ -1,0 +1,32 @@
+<BindingAddress>192.168.0.200</BindingAddress>
+<IPAddress>239.192.39.123</IPAddress>
+<Port>5004</Port>
+<Action>
+ <Type>log</Type>
+ <message>Silence for 1 hour.</message>
+ <file>/tmp/silence_log</file>
+ <threshold>25000</threshold>
+ <counts>3600</counts>
+</Action>
+<Action>
+ <Type>log</Type>
+ <message>Silence for 30 minutes.</message>
+ <file>/tmp/silence_log</file>
+ <threshold>25000</threshold>
+ <counts>1800</counts>
+</Action>
+<Action>
+ <Type>log</Type>
+ <message>Silence for 10 seconds.</message>
+ <file>/tmp/silence_log</file>
+ <threshold>25000</threshold>
+ <counts>10</counts>
+</Action>
+<Action>
+ <Type>log</Type>
+ <message>Silence for 30 seconds.</message>
+ <file>/tmp/silence_log</file>
+ <threshold>25000</threshold>
+ <counts>30</counts>
+</Action>
+
